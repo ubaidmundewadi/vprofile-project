@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        cluster = 'vvprofileprod'
+        cluster = 'vprofileprod'
 	    service = 'vproappprodsvc'
     }
 
